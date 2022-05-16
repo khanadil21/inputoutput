@@ -10,21 +10,20 @@
     <input type="number" id="inputNum1">
     <input type="number" id="inputNum2">
 
-    <button onclick="submit()">SUBMIT</button>
+    <button onclick="submit()">Submit</button>
 
     <h1 id="sumResult"></h1>
 
     <script>
 
-        function submit(){
-
+        function submit() {
             let inputNum1 = document.querySelector('#inputNum1').value;
             let inputNum2 = document.querySelector('#inputNum2').value;
 
-            console.log("inputNum1",inputNum1);
-            console.log("inputNum2",inputNum2);
+            console.log("inputNum1", inputNum1);
+            console.log("inputNum2", inputNum2);
 
-            let result = Number Number(inputNum1) + Number(inputNum2);
+            let result = Number(inputNum1) + Number(inputNum2);
 
             console.log("result", result);
 
@@ -32,6 +31,7 @@
             sumResultElement.innerText = result;
 
         }
+
     </script>
 </body>
 </html>
